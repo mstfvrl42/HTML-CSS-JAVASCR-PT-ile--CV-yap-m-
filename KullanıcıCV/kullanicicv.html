@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>CV</title>
+        <link rel="stylesheet" href="kullanicicv.css">
+    </head>
+    <body>
+        <form action="https://httpbin.org/post" method="post">
+        <h1>CV'ni Hazırla Bir adım Önde Ol</h1> 
+        <div class="file">
+           <figure>
+            <input name="resim" id="resim" type="file" required>
+        <figcaption>Fotoğraf Ekle </figcaption>
+        </figure> 
+            
+        </div>
+        <div class="profil">
+        <h3>PROFİL</h3>
+        <div>
+            <label for="Ad">Ad</label>
+            <input name="Ad" id="Ad" type="text" required >
+        </div>
+        <div>
+            <label for="yer">Doğum Yeri</label>
+            <input name="yer" id="yer" type="text"required>
+        </div>
+        <div>
+            <label for="Tarih">Doğum Tarihi:</label>
+            <input name="Tarih" id="Tarih" type="date">
+        </div>
+        <div>
+            <label for="MDurum">Medeni Durum</label>
+            <input name="Mdurum" id="Mdurum" type="radio">Evli
+            <input name="Mdurum" id="Mdurum" type="radio">Bekar
+        </div>
+        <div>
+            <label for="Adurum">Askerlik Durumu</label>
+            <input name="Adurum" id="Adurum" type="radio" >Tecilli
+            <input name="Adurum" id="Adurum" type="radio">Yaptı
+            <input name="Adurum" id="Adurum" type="radio">Yapmadı
+        </div>
+        <div>
+            <label for="Belge">Sürücü Belgesi</label>
+            <input name="Bdurum" id="Bdurum" type="radio" >Var
+            <input name="Bdurum" id="Adurum" type="radio">Yok
+        </div>
+    </div>
+        <h3>İLETİŞİM</h3>
+        <div>
+            <label for="tel">Tel</label>
+            <input name="tel" id="tel" type="tel" required placeholder="">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" required placeholder="@gmail.com">
+        </div>
+        <div>
+            <label for="Adres">Adres</label>
+            <textarea name="Adres" id="Adres" cols="20" rows="10"></textarea>
+        </div>
+        <div class="egitim">
+        <h3>EĞİTİM</h3>
+        
+        <textarea name="egitim" id="eğitim" cols="20" rows="10"></textarea>
+        
+        <h3>DENEYİM</h3>
+        
+        <textarea name="deneyim" id="deneyim" cols="50" rows="10"></textarea>
+        <h3>HOBİLERİM</h3>,
+        <textarea name="hobi" id="hobi" cols="50" rows="10"></textarea>
+        <button onclick="tıkla()" type="reset">SIFIRLA</button>
+        <button type="submit">Gönder</button>
+    </form>
+        </div>
+        <script>
+            function tıkla(){
+                alert("CV başarıyla temizlendi");
+            }
+            
+
+        </script>
+
+    </body>
+</html>

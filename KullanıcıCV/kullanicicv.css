@@ -1,0 +1,45 @@
+html{
+    background-color: yellow;
+     
+}
+body{
+    
+}
+label{
+    display: block;
+    margin-top: 5px;
+    font-style: normal;
+    font-size: 20px;
+    
+}
+input[type=text],input[type=date],input[type=email],input[type=tel],textarea{
+    width: 320px;
+    border-radius: 5px;
+    height: 42px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding-left: 10px;
+    padding-right:10px ;
+}
+.file{
+    margin-left: 550px;
+    
+}
+.egitim{
+    margin-left: 500px;
+    margin-top: -830px;
+}
+textarea[name=deneyim],textarea[name=hobi],textarea[name=egitim]
+{
+    width: 400px;
+    height: 200px;
+}
+textarea[name=Adres]
+{
+    width: 320px;
+    height: 200px;
+}
+button{
+    margin-top:50px;
+    width: 100px;
+    height: 60px;
+}
